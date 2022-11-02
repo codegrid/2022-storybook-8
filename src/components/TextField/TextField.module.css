@@ -1,0 +1,25 @@
+.controlGroup {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.textField {
+  margin-top: 2px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 10px;
+}
+.textField.error {
+  border-color: #b30000;
+}
+.errorMessage {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #b30000;
+}
